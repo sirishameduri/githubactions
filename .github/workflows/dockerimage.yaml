@@ -23,7 +23,7 @@ jobs:
       run: docker build -t sirisha/github_action_docker:latest .
    
     - name: Push Docker Image
-      run: docker push sirisha/github_action_docker:latest
+      run: docker push sireesha86/github_action_docker:latest
       
     - name: Log out from Docker Hub  
       run: docker logout
